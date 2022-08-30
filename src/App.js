@@ -7,7 +7,7 @@ export default function App() {
 		<div className="App">
 			< Weather/>
 			<footer>
-        This project was coded by <a href="https://github.com/gosiast"> Malgorzata Stano </a>
+        This project was coded by <a href="https://github.com/gosiast" target="_blank"> Malgorzata Stano </a>
         and is 
 				<a href="https://github.com/gosiast/final-weather-app" target="_blank">
 					{" "}
