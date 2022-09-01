@@ -1,4 +1,16 @@
-.Weather {
-	border: 1px solid rgb(63, 63, 67);
-    margin: 10px;
+App {
+	max-width: 600px;
+	margin: 30px auto;
+}
+footer {
+	color: white;
+	font-size: 14px;
+	margin: 10px 0;
+	padding: 0 20px;
+}
+
+.App footer a {
+	text-decoration: dashed;
+	color: rgba(43, 43, 43, 0.464);
+	font-weight: bold;
 }

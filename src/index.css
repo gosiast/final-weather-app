@@ -1,0 +1,9 @@
+body {
+	font-family: arial;
+	background: linear-gradient(
+		90deg,
+		rgb(40, 77, 124) 0%,
+		rgb(240, 127, 178) 50%,
+		rgb(238, 156, 75) 100%
+	);
+}
