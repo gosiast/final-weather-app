@@ -5,8 +5,8 @@ App {
 footer {
 	color: white;
 	font-size: 14px;
-	margin: 40px auto;
-	padding: 0 20px;
+	margin: 5px auto;
+	text-align: center;
 }
 
 .App footer a {
