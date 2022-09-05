@@ -1,0 +1,13 @@
+button {
+	background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+button:hover {
+	color: rgb(34, 34, 150);
+	font-weight: bold;
+}
