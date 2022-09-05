@@ -19,12 +19,27 @@ export default function WeatherForecast(props) {
 		return (
 			<div className="WeatherForecast">
 				<div className="row">
+					<hr />
 					<div className="col">
 						<WeatherForecastDay data={forecast[0]} />
+					</div>
+					<div className="col">
+						<WeatherForecastDay data={forecast[1]} />
+					</div>
+					<div className="col">
+						<WeatherForecastDay data={forecast[2]} />
+					</div>
+					<div className="col">
+						<WeatherForecastDay data={forecast[3]} />
+					</div>
+					<div className="col">
+						<WeatherForecastDay data={forecast[4]} />
 					</div>
 				</div>
 			</div>
 		);
+
+		// another option to display multiple days was to use the LOOP
 	} else {
 		let apiKey = "1e7e4fc41dea029f49d7f03e46e28df4";
 		let longitude = props.coordinates.lon;
